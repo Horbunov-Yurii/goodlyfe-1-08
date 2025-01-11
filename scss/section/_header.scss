@@ -1,0 +1,84 @@
+.header{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background: #E43071;
+
+    @media screen and (min-width: 1382px) {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+&__box{
+    display: flex;
+    align-items: center;
+}
+
+    &__logo{
+        color: #FFF;
+text-align: center;
+font-size: 21.818px;
+font-weight: 800;
+line-height: 109.5%; /* 23.891px */
+margin-right: auto;
+
+@media screen and (min-width: 1382px) {
+    font-size: 40px;
+    margin-right: 172px;
+}
+}
+
+&__lyfe{
+    color: #FFC1D8;
+}
+
+&__nav{
+    display: none;
+
+    @media screen and (min-width: 1382px) {
+        display: flex;
+        align-items: center;
+    }
+}
+
+&__list{
+    display: flex;
+    gap: 76px;
+}
+
+&__link{
+    color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 109.5%; /* 17.52px */
+}
+
+&__btn{
+    color: #E43071;
+background: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 109.5%; /* 17.52px */
+border-radius: 200px;
+padding: 16px 61px;
+margin-left: 63px;
+
+
+}
+
+&__btn-svg{
+display: block;
+
+@media screen and (min-width: 1382px) {
+    display: none;
+}
+}
+
+&__menu{
+    width: 30px;
+    height: 30px;
+    fill: #FFF ;
+}
+
+}

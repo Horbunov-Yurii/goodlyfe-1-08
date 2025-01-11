@@ -22,6 +22,7 @@ h1, h2, h3, h4, p {
 button {
   border: none;
   cursor: pointer;
+  background-color: transparent;
 }
 
 address {
@@ -48,4 +49,81 @@ address {
 
 body {
   font-family: "Poppins", serif;
+}
+
+.header {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background: #E43071;
+}
+@media screen and (min-width: 1382px) {
+  .header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
+.header__box {
+  display: flex;
+  align-items: center;
+}
+.header__logo {
+  color: #FFF;
+  text-align: center;
+  font-size: 21.818px;
+  font-weight: 800;
+  line-height: 109.5%; /* 23.891px */
+  margin-right: auto;
+}
+@media screen and (min-width: 1382px) {
+  .header__logo {
+    font-size: 40px;
+    margin-right: 172px;
+  }
+}
+.header__lyfe {
+  color: #FFC1D8;
+}
+.header__nav {
+  display: none;
+}
+@media screen and (min-width: 1382px) {
+  .header__nav {
+    display: flex;
+    align-items: center;
+  }
+}
+.header__list {
+  display: flex;
+  gap: 76px;
+}
+.header__link {
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 109.5%; /* 17.52px */
+}
+.header__btn {
+  color: #E43071;
+  background: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 109.5%; /* 17.52px */
+  border-radius: 200px;
+  padding: 16px 61px;
+  margin-left: 63px;
+}
+.header__btn-svg {
+  display: block;
+}
+@media screen and (min-width: 1382px) {
+  .header__btn-svg {
+    display: none;
+  }
+}
+.header__menu {
+  width: 30px;
+  height: 30px;
+  fill: #FFF;
 }/*# sourceMappingURL=main.css.map */
