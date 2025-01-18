@@ -376,4 +376,116 @@ body {
     width: 237px;
     height: 68px;
   }
+}
+
+.premium {
+  padding-top: 144px;
+  padding-bottom: 87px;
+  text-align: start;
+}
+@media screen and (min-width: 1382px) {
+  .premium {
+    padding-top: 321px;
+    padding-bottom: 129px;
+  }
+}
+.premium__box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+@media screen and (min-width: 1382px) {
+  .premium__box {
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+}
+.premium__list {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, 0);
+}
+@media screen and (min-width: 1382px) {
+  .premium__list {
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+  }
+}
+.premium__item:first-child {
+  position: absolute;
+  top: -55%;
+  left: -35%;
+}
+.premium__item:first-child .premium__img {
+  width: 202px;
+  height: 135px;
+}
+@media screen and (min-width: 1382px) {
+  .premium__item:first-child .premium__img {
+    width: 444px;
+    height: 296px;
+  }
+}
+.premium__img {
+  width: 191px;
+  height: 128px;
+}
+@media screen and (min-width: 1382px) {
+  .premium__img {
+    width: 422px;
+    height: 281px;
+  }
+}
+.premium__title {
+  width: 259px;
+  color: #E43071;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 13px;
+}
+@media screen and (min-width: 1382px) {
+  .premium__title {
+    width: auto;
+    margin-bottom: 4px;
+  }
+}
+.premium__text {
+  color: #424242;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 269px;
+}
+@media screen and (min-width: 1382px) {
+  .premium__text {
+    width: 489px;
+  }
+}
+.premium__btn {
+  color: #E43071;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 37px;
+  border-radius: 38.5px;
+  border: 2px solid #E43071;
+  padding: 13px 86px;
+  margin-top: 30px;
+}
+@media screen and (min-width: 1382px) {
+  .premium__btn {
+    padding: 16px 72px;
+    margin-top: 4px;
+  }
+}
+.premium__wrap {
+  text-align: start;
+}
+@media screen and (min-width: 1382px) {
+  .premium__wrap {
+    align-items: center;
+  }
 }/*# sourceMappingURL=main.css.map */
