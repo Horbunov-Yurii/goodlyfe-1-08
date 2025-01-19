@@ -665,4 +665,77 @@ body {
     font-size: 14px;
     line-height: 34px;
   }
+}
+
+.app {
+  padding: 50px 0 470px 0;
+  background-color: #E43071;
+}
+@media screen and (min-width: 1382px) {
+  .app {
+    padding: 112px 0 76px 0;
+  }
+}
+@media screen and (min-width: 1382px) {
+  .app__wrap {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.app__title {
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 8px;
+}
+@media screen and (min-width: 1382px) {
+  .app__title {
+    margin-bottom: 4px;
+  }
+}
+.app__text {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2.06;
+  margin-bottom: 50px;
+}
+@media screen and (min-width: 1382px) {
+  .app__text {
+    line-height: 2.31;
+    width: 489px;
+  }
+}
+.app__desk {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2.06;
+  margin-bottom: 9px;
+}
+@media screen and (min-width: 1382px) {
+  .app__desk {
+    line-height: 2.31;
+  }
+}
+.app__list {
+  display: flex;
+  gap: 12px;
+}
+.app__items {
+  position: relative;
+  display: flex;
+}
+@media screen and (min-width: 1382px) {
+  .app__el:first-child {
+    position: absolute;
+    top: -150px;
+    left: -264px;
+  }
+}
+@media screen and (min-width: 1382px) {
+  .app__el:last-child {
+    transform: translateY(76px);
+  }
 }/*# sourceMappingURL=main.css.map */
